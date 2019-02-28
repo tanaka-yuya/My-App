@@ -57,6 +57,7 @@ h2 {
 p {
   font-size: 1.1em;
   line-height: 1.7em;
+  text-align: center;
 }
 
 
@@ -300,4 +301,9 @@ span.picture {
 
 #wel{
   color: white;
+}
+
+ul.text_center {
+    text-align: center;
+    list-style: none;
 }

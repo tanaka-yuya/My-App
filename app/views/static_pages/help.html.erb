@@ -1,11 +1,12 @@
 <% provide(:title, "How to Use") %>
 <h1>How to Use</h1>
 <p>
-  This is the sample application created by YUYA TANAKA using ruby on rails.
-  If you want to login without signup, please login as Example User below.
-    <ul>
-      <li>name: "Example User"</li>
-      <li> email: "example@railstutorial.org"</li>
-      <li>password: "password"</li>
-    </ul>
-</p>
+  This is a sample application created by YUYA TANAKA using ruby on rails.<br>
+  If you want to login without signup, please <%= link_to "login as Example User below.", login_path %>
+</P>
+
+  <ul class="text_center">
+    <li>name: "Example User"</li>
+    <li>email: "example@railstutorial.org"</li>
+    <li>password: "password"</li>
+  </ul>
