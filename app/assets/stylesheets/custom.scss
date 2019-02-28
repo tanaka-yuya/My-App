@@ -15,7 +15,7 @@ $gray-medium-light: #eaeaea;
 
 body {
   padding-top: 60px;
-}
+} 
 
 section {
   overflow: auto;
@@ -287,4 +287,17 @@ span.picture {
   input {
     border: 0;
   }
+}
+
+
+.jumbotron {
+	padding-top: 70px;
+	background: url(mal.jpg);
+	background-size: cover;
+	background-position: 70% 30%;
+	height: 400px;
+}
+
+#wel{
+  color: white;
 }
